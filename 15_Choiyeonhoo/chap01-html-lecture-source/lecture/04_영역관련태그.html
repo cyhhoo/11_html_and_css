@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>04_영역 관련 태그</title>
+  <style>
+      .box {
+          border: 1px solid black;
+          width: 100px;
+          height: 100px;
+      }
+
+      .red {
+          background-color: red;
+      }
+
+      .yellow {
+          background-color: yellow;
+      }
+
+      .green {
+          background-color: green;
+      }
+  </style>
+</head>
+<body>
+  <h1>영역 관련 태그</h1>
+  <pre>
+    * block 요소
+      - 줄 바꿈이 적용되어 이미 존재하는 태그의 다음 줄에 영역 설정됨
+      - 화면을 수직 분할함(행이 쌓여 있는 모양)
+      - 너비, 높이를 설정할 수 있다.
+      - block 요소 태그 : div, p, pre, h1, form
+
+    * inline 요소
+      - 줄 바꿈이 적용되지 않아 옆으로 영역이 붙는 형식으로 설정됨
+      - 화면을 수평 분할함(한 줄에 글이 작성 되는 모양)
+      - 너비 높이는 내부 내용(content)의 크기에 따라 결정된다.
+      - inline 요소 태그 : span, strong, b, em, i, mark, sup, sub, addr, img, audio, video 등
+
+  </pre>
+
+  <h3>div태그(block 요소)</h3>
+  <div class="box red">
+    첫번째 영역
+  </div>
+  <div class="box yellow">
+    두번째 영역
+  </div>
+  <div class="box green">
+    세번째 영역
+  </div>
+
+  <hr>
+
+  <h3>span(inline 요소)</h3>
+  <span class="box red">
+    첫번째 영역
+  </span>
+  <span class="box yellow">
+    두번째 영역
+  </span>
+  <span class="box green">
+    세번째 영역
+  </span>
+
+  <hr>
+  <h3>block/inline 차이점 확인</h3>
+  <h5>block 요소</h5>
+  <div class="yellow">나를 그냥 짓밟고 가
+    괜찮아 돌아보지 마
+    내가 아파봤자 너만 하겠니
+    이젠 너를 헤아려봐
+    날 위해 쉬던 그 숨은 잊고
+    저 위에 널 위해 just kill my ego
+    등 돌려 걸어가
+    You got it, you got it, yeah
+    안녕은 우릴 아프게 하지만 우아할 거야 (oh)
+    나 땅을 치고 후회하도록 넌 크게 웃어줘
+    Goodb-ye
+    By-ye-ye, ya-ya-ye
+    By-ye-ye, ya-ya-ye (by-y-ye)
+    By-ye-ye, ya-ya-ye
+    By-ye-ye-ye-ye
+    후회하도록 goodby-y-ye
+    널 생각한 운율이야
+    비로소 느껴지잖아
+    눈물은 고이고 찬란하게 빛나
+    우린 좋은 안녕 중이야
+    고맙단 말 대신 전할게
+    Goodbye, good, goodbye
+    안녕은 우릴 아프게 하지만 우아할 거야 (oh)
+    나 땅을 치고 후회하도록 넌 크게 웃어줘
+    Goodb-ye
+    By-ye-ye, ya-ya-ye
+    By-ye-ye, ya-ya-ye (by-y-ye)
+    By-ye-ye, ya-ya-ye
+    By-ye-ye-ye-ye
+    세상이 나를 빤히 내려다봐도
+    내 편이 돼 줄 사람 하나 없어도
+    Don't worry, it's okay
+    난 내 곁에 있을게
+    I'll be on my side instead of you
+    안녕은 나를 아프게 하지만 울어볼 거야 (oh-oh-oh)
+    땅을 치고 후회해도 좋아 우리 이렇게
+    Goodb-ye
+    By-ye-ye, ya-ya-ye (by-y-ye)
+    By-ye-ye, ya-ya-ye (by-y-ye)
+    By-ye-ye, ya-ya-ye
+    By-ye-ye-ye-ye
+    후회조차도 goodby-y-ye
+  </div>
+
+  <h5>inline 요소</h5>
+  <span class="box green">나를 그냥 짓밟고 가
+괜찮아 돌아보지 마
+내가 아파봤자 너만 하겠니
+이젠 너를 헤아려봐
+날 위해 쉬던 그 숨은 잊고
+저 위에 널 위해 just kill my ego
+등 돌려 걸어가
+You got it, you got it, yeah
+안녕은 우릴 아프게 하지만 우아할 거야 (oh)
+나 땅을 치고 후회하도록 넌 크게 웃어줘
+Goodb-ye
+By-ye-ye, ya-ya-ye
+By-ye-ye, ya-ya-ye (by-y-ye)
+By-ye-ye, ya-ya-ye
+By-ye-ye-ye-ye
+후회하도록 goodby-y-ye
+널 생각한 운율이야
+비로소 느껴지잖아
+눈물은 고이고 찬란하게 빛나
+우린 좋은 안녕 중이야
+고맙단 말 대신 전할게
+Goodbye, good, goodbye
+안녕은 우릴 아프게 하지만 우아할 거야 (oh)
+나 땅을 치고 후회하도록 넌 크게 웃어줘
+Goodb-ye
+By-ye-ye, ya-ya-ye
+By-ye-ye, ya-ya-ye (by-y-ye)
+By-ye-ye, ya-ya-ye
+By-ye-ye-ye-ye
+세상이 나를 빤히 내려다봐도
+내 편이 돼 줄 사람 하나 없어도
+Don't worry, it's okay
+난 내 곁에 있을게
+I'll be on my side instead of you
+안녕은 나를 아프게 하지만 울어볼 거야 (oh-oh-oh)
+땅을 치고 후회해도 좋아 우리 이렇게
+Goodb-ye
+By-ye-ye, ya-ya-ye (by-y-ye)
+By-ye-ye, ya-ya-ye (by-y-ye)
+By-ye-ye, ya-ya-ye
+By-ye-ye-ye-ye
+후회조차도 goodby-y-ye</span>
+
+
+</body>
+</html>
