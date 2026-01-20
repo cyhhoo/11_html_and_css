@@ -1,0 +1,45 @@
+/* 글 방향 L -> R (왼쪽 정렬)*/
+#p1 {
+    direction: ltr;
+}
+
+/* 글 방향 R -> L (오른쪽 정렬)*/
+#p2 {
+    direction: rtl;
+}
+
+/* 텍스트 정렬하기 */
+#p3 {
+    text-align: left; /* 기본값 */
+}
+
+#p4 {
+    text-align: right;
+}
+
+#p5 {
+    text-align: center;
+}
+
+#p6 {
+    /* 양쪽 정렬 : 글자를 양 끝에 붙이고
+    문장 사이 자간을 자동으로 조정하는 것 */
+    text-align: justify;
+}
+
+#p7 {
+    line-height: normal; /* 기본값*/
+}
+
+#p8 {
+    line-height: 15px;
+}
+
+#p9 {
+    line-height: 2.5em;
+}
+
+#p10 {
+    /* 글자 크기 기준 */
+    line-height: 100%;
+}
