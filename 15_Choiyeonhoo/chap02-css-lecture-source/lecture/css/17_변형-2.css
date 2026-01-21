@@ -1,0 +1,26 @@
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.trans1:hover {
+    transform: perspective(300px) translate3d(50px, 50px, 100px);
+}
+
+.trans2:hover {
+    transform: perspective(300px) translateZ(10px);
+}
+
+.trans3:hover {
+    transform: rotateX(30deg);
+}
+
+.trans4:hover {
+    transform: rotateY(30deg);
+}
+
+.trans5:hover {
+    transition-duration: 1s;
+    transform: rotateZ(3600deg);
+}
+
